@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+    @apply inline-flex items-center px-4 py-2 bg-gray-100 text-gray-800 border border-transparent rounded-md font-semibold text-xs tracking-widest transition ease-in-out duration-150 ring-gray-300;
+}
+
+.button:hover {
+    @apply bg-gray-200;
+}
+
+.button:active, .button:focus {
+    @apply bg-gray-300 ring;
+}
+
+.button.button-primary {
+    @apply bg-indigo-500 text-white !important;
+}
+
+.button-primary:hover, .button.button-primary:active, .button.button-primary:focus {
+    @apply bg-indigo-600 !important;
+}
+
+.button.button-primary:disabled {
+    @apply bg-indigo-200 !important;
+}
+
+.button.button-danger {
+    @apply bg-red-500 text-white !important;
+}
+
+.button-danger:hover, .button.button-danger:active, .button.button-danger:focus {
+    @apply bg-red-600 !important;
+}
+
+.button.button-danger:disabled {
+    @apply bg-red-200 !important;
+}
