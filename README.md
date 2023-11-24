@@ -30,6 +30,8 @@
 <li><span style="color: #000000;">&nbsp; php artisan migrate:fresh --seed</span></li>
 <li><span style="color: #000000;">&nbsp; php artisan serve.</span></li>
 </ol>
+<p><span style="color: #000000;"><strong>SuperAdmin Login : admin@admin.com Password: admin</strong></span></p>
+
 <p>&nbsp;</p>
 <p><span style="color: #000000;"><strong>Enjoy!</strong></span></p>
 <p><span style="color: #000000;"><strong>Thank you from Tunisia! <img src="https://html-online.com/editor/tiny4_9_11/plugins/emoticons/img/smiley-wink.gif" alt="wink" /></strong></span></p>
